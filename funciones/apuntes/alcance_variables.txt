@@ -1,0 +1,18 @@
+Las variables pueden tener un alcance global o  local, dependiendo de donde y como se declaren
+
+las variables globales son aquellas que están disponibles a lo largo de todo el programa.
+
+mientras que las variables locales solo están disponibles dentro del bloque de código o la función donde fueron declaradas
+
+ejemplo:
+tenemos un programa donde le pedimos al usuario 2 números enteros para realizar una operación como la suma, 
+los dos números que pedimos lo guardamos como variables globales.
+pero si creamos una función que realice la operación de suma, la cual pedirá los 2 valores a sumar y da como respuesta un resultado es decir 
+
+def suma (x,y):
+	resultado = x+y
+	return resultado
+
+en este caso esta variable resultado seria una variable local, que seria la suma de las 2 variables globales, esto quiere decir que desde fuera de la función
+no puedo acceder a este valor resultado, dado que una vez ejecutada la función este valor se vuelve a perder.
+para mas ejemplos podemos consultar el archivo .py que se llama alcance_variable.py

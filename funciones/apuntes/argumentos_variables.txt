@@ -1,0 +1,7 @@
+En Python, los argumentos variables permiten que una función acepte un numero arbitrario de elementos. hay dos tipos principales.
+1. argumentos posicionales variables *args: permiten pasar multiples argumentos posicionales a un función, recibiéndolos como una tupla dentro de la función.
+2. argumentos con la palabra clave **kwargs: reciben ls argumentos en forma de diccionario (llave-valor o key-value)
+podremos ver los ejemplos en el archivo .py argumentos_variables.py
+
+*args - argumentos - tupla
+**kwargs - keyword arguments (key, value) como un diccionario
