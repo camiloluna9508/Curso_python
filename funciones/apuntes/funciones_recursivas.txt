@@ -1,0 +1,12 @@
+una función recursiva es aquella que se manda a llamar asi misma una y otra vez.
+tenemos algunas reglas para que una función sea recursiva:
+	1. que se llame a si misma 
+	2.debe avanzar hacia un caso base, de lo contrario caemos en ciclos infinitos "cada llamada de la función a si misma nos acercara a dicho caso base"
+		ejemplo :
+			mi_funcion(n):
+				si n==1:"caso base"
+					regresa n
+				Sino
+					mi_funcion(n-1"accion que nos llevara al caso base")
+
+	3.

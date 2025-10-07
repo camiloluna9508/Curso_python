@@ -1,6 +1,7 @@
 Las variables pueden tener un alcance global o  local, dependiendo de donde y como se declaren
 
-las variables globales son aquellas que están disponibles a lo largo de todo el programa.
+las variables globales son aquellas que están disponibles a lo largo de todo el programa. otro punto es que las variables globales siempre están definidas fueran de algún método o función
+
 
 mientras que las variables locales solo están disponibles dentro del bloque de código o la función donde fueron declaradas
 
