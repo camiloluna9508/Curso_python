@@ -4,7 +4,7 @@ Python es un lenguaje orientado a objetos.
 
 un objeto es una representación de una entidad de la vida en nuestro programa.
 
-para crear un objeto primero necesitamos crear una clase o plantilla 
+para crear un objeto primero necesitamos crear una clase o plantilla
 
 una clase representa las características en común de nuestros objetos. es una abstracción.
 
@@ -34,12 +34,12 @@ ejemplo:
 
 **métodos:**
 
-* agregarnombre()
+* agregarpersona()
 * mostrarpersona()
 
 
 
-de la clase se desprenden o se crean objetos por ejemplo 
+de la clase se desprenden o se crean objetos por ejemplo
 
 
 
@@ -49,11 +49,37 @@ nombre=Layla				nombre=Ian
 
 apellido=acosta				apellido=Sanchez
 
-&nbsp;	.					.
+ 	.					.
 
-&nbsp;	.					.
+ 	.					.
 
-&nbsp;	.					.
+ 	.					.
 
 
+
+
+
+
+
+### Constructores en Python
+
+
+
+Un constructor es un método especial y se utiliza para crear un objeto, o instanciar una clase
+
+Ademas nos puede servir para crear e inicializar los atributos de un nuevo objeto
+
+
+
+
+
+\#sintaxis de un constructor
+
+class NombreDeClase:
+
+ 	def \_\_init\_\_(self,parametro1,parametro2):
+
+ 		self.parametro1 = parametro1
+
+ 		self.parametro2 = parametro2
 
