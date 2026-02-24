@@ -1,0 +1,9 @@
+si no se especifica si heredamos de otra clase, automaticamente heredamos de la clase object.
+por lo tanto la clase Object es la clase padre de todas las clases en python de forma indirecta o directa.
+esta clase object tiene distintos elementos como:
+
+__init__() agregar atributos a nuestra clase "tipo dowder"
+__str__() manda a imprimer el estado de nuestro objeto
+__eq__()  compara si dos objetos son iguales
+
+ejemplo cuando creamos una clase y le creamos el metodo o funcion __init__() sobreescribimos el metedo heredado de la clase padre Object

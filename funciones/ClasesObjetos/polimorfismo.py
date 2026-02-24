@@ -11,15 +11,21 @@ class gato (Animal):
     def hacer_sonido(self):
         print(" Puedo maullar")
 
+# Funcion polimorfica
+
+def hacer_sonido_animal(animal):#duck typing
+    animal.hacer_sonido()
+
+
 print("***ejemplo polimorfismo***")
 print("clase padre Animal")
 animal1=Animal()
-animal1.hacer_sonido()
+hacer_sonido_animal(animal1)
 
 #definimos un objeto de la clase perro "clase hija"
 print("\nclase hija perro")
 perro1=perro()
-perro1.hacer_sonido()
+hacer_sonido_animal(perro1)
 print("\nclase hija gato")
 gato1=gato()
-gato1.hacer_sonido()
+hacer_sonido_animal(gato1)
